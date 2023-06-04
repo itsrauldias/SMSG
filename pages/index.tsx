@@ -11,6 +11,7 @@ import roupas from '../lib/images/produtos/roupas.png';
 import cuscuz from '../lib/images/produtos/cuscuz.png';
 import leite from '../lib/images/produtos/leite.png';
 import fralda from '../lib/images/produtos/fralda.png';
+import ScrollableItemList from '@/components/scrollableItemList/Index';
 
 
 export default function Home() {
@@ -25,11 +26,12 @@ export default function Home() {
       <main>
         <Header />
         <div className="container mt-3">
-          <div className="row">
+          <div className="row" style={{ borderBottom: '3px solid #b3d353', paddingBottom: '2rem' }}>
             {/* Listagem de produtos destaques */}
             <h3>Itens em destaque</h3>
+            <ScrollableItemList />
           </div>
-          <div className="row">
+          <div className="row mt-3">
             {/* Listagem de produtos no mercado */}
             <div className="col-md-4">
               <div className="card">
