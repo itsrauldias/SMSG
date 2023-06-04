@@ -37,11 +37,11 @@ export default function Acesso() {
                                         Lembrar minha senha
                                     </label>
                                 </div>
-                                <button className="btn btn-primary w-100 py-2" type="submit">Entrar</button>
+                                <button className="btn btn-success w-100 py-2" type="submit" style={{ backgroundColor: '#b3d353' }}>Entrar</button>
                             </main>
                         </div>
                     </div>
-                </div>
+                </div >
             </>
         )
     } else if (tipoAcesso == 1) {
@@ -73,7 +73,7 @@ export default function Acesso() {
                                     Lembrar minha senha
                                 </label>
                             </div>
-                            <button className="btn btn-primary w-100 py-2" type="submit">Entrar</button>
+                            <button className="btn btn-success w-100 py-2" type="submit" style={{ backgroundColor: '#b3d353' }}>Entrar</button>
                         </main>
                     </div>
                 </div>
