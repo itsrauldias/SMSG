@@ -26,6 +26,11 @@ export default function Home() {
         <Header />
         <div className="container mt-3">
           <div className="row">
+            {/* Listagem de produtos destaques */}
+            <h3>Itens em destaque</h3>
+          </div>
+          <div className="row">
+            {/* Listagem de produtos no mercado */}
             <div className="col-md-4">
               <div className="card">
                 <Image className="card-img-top" src={arroz} alt="produto" style={{ height: '10rem' }} />

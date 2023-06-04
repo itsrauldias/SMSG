@@ -3,7 +3,7 @@ import { useState } from "react"
 
 import logo from '../../lib/images/logow.png';
 
-export default () => {
+export default function Acesso() {
 
     const [tipoAcesso, setTipoAcesso] = useState<any>(0);
 
